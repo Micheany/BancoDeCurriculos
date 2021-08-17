@@ -51,6 +51,20 @@ legend{
      margin: auto 20px;
  }
 
+ .botaoDeEnviar {
+     display: flex;
+     justify-content: center;
+     margin: 20px;
+ }
+
+ .botaoDeEnviar button{
+     background: #495057 ;
+     color: rgb(202, 197, 197) ;
+     width: 200px;
+     font-size: 20px;
+
+ }
+
  footer{
     bottom: 0;
     width: 100%;
