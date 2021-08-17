@@ -62,17 +62,20 @@ legend{
      color: rgb(202, 197, 197) ;
      width: 200px;
      font-size: 20px;
-
+     transition: 300ms;
  }
+
+ .botaoDeEnviar button:hover{
+    background-color: rgb(29, 28, 28);
+}
 
  footer{
     bottom: 0;
     width: 100%;
-    height: 277px;
+    height: 250px;
     color: rgb(202, 197, 197);
     text-align: center;
     background-color: #495057 ;
-      
  }
 
  footer .linksFooter{
@@ -84,7 +87,12 @@ legend{
  footer .linksFooter p{
      text-align:left;
      margin: 5px;
+     transition: 300ms;
  }
+
+ footer .linksFooter p:hover{
+   color: white;
+}
 
  footer p {
      margin: 20px;
